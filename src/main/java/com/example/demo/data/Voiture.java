@@ -1,6 +1,6 @@
 package com.example.demo.data;
 //Bonjour
-// test
+// ceci est un texte
 public class Voiture {
 
     String marque;
