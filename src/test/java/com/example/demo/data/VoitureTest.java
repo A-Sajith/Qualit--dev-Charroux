@@ -13,8 +13,8 @@ public class VoitureTest {
     void creerVoiture(){
         assertEquals(1,1);
         Voiture v1 = new Voiture("Ferrari",2500);
-        assertEquals("Ferrari",Voiture.getMarque());
-        assertEquals(2500,Voiture.getPrix());
+        assertEquals("Ferrari",v1.getMarque());
+        assertEquals(2500,v1.getPrix());
     }
 
 }
