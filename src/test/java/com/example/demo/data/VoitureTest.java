@@ -12,6 +12,9 @@ public class VoitureTest {
     @Test
     void creerVoiture(){
         assertEquals(1,1);
+        Voiture v1 = new Voiture("Ferrari",2500);
+        assertEquals("Ferrari",Voiture.getMarque());
+        assertEquals(2500,Voiture.getPrix());
     }
 
 }
